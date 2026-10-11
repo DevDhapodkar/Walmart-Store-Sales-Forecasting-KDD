@@ -61,7 +61,7 @@ def add_header(slide, title_text, subtitle_text, slide_num):
     ft = slide.shapes.add_textbox(Inches(0.5), Inches(7.12), Inches(12.333), Inches(0.3))
     ft_tf = ft.text_frame
     fp = ft_tf.paragraphs[0]
-    fp.text = f"Dev Dilip Dhapodkar (PRN: 24070521505)  |  Predictive Analytics CA3 — Walmart Store Sales Forecasting                                                           Slide {slide_num} / 13"
+    fp.text = f"Dev Dilip Dhapodkar (PRN: 24070521505)  |  Predictive Analytics CA3 — Topic: Sales Forecasting                                                           Slide {slide_num} / 13"
     fp.font.name = 'Calibri'
     fp.font.size = Pt(9.5)
     fp.font.color.rgb = C_SLATE
@@ -190,7 +190,7 @@ p.font.color.rgb = C_YELLOW
 p.space_after = Pt(12)
 
 p = tf1.add_paragraph()
-p.text = "End-to-End Retail Store Sales Forecasting &\nSupply Chain Inventory Optimization"
+p.text = "Sales Forecasting:\nEnd-to-End Retail Store Sales & Supply Chain Optimization"
 p.font.name = 'Calibri'
 p.font.size = Pt(36)
 p.font.bold = True

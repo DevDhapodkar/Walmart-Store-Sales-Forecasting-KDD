@@ -20,7 +20,7 @@ from reportlab.platypus import (
 # ==============================================================================
 # CONTENT DEFINITIONS FOR CHAPTERS 1 - 6
 # ==============================================================================
-TITLE = "End-to-End Retail Store Sales Forecasting and Supply Chain Inventory Optimization Using the KDD Process"
+TITLE = "Sales Forecasting: End-to-End Retail Store Sales Forecasting and Supply Chain Inventory Optimization Using the KDD Process"
 SUBTITLE = "Predictive Analytics Continuous Assessment 3 (CA3) — Project Report"
 
 LIT_REVIEW_TABLE = [
@@ -458,7 +458,7 @@ def add_page_number(canvas, doc):
     canvas.saveState()
     canvas.setFont('Helvetica', 8.5)
     canvas.setFillColor(colors.HexColor('#64748B'))
-    canvas.drawString(0.65 * inch, 0.45 * inch, "Dev Dilip Dhapodkar (PRN: 24070521505) — Predictive Analytics CA3 Project Report")
+    canvas.drawString(0.65 * inch, 0.45 * inch, "Dev Dilip Dhapodkar (PRN: 24070521505) — Predictive Analytics CA3: Sales Forecasting")
     canvas.drawRightString(A4[0] - 0.65 * inch, 0.45 * inch, f"Page {doc.page}")
     canvas.restoreState()
 
