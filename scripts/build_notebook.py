@@ -41,8 +41,7 @@ nb.metadata = {
 cells = []
 
 # Title & KDD Overview Markdown
-cells.append(new_markdown_cell("""# Sales Forecasting
-## End-to-End Retail Store Sales Forecasting & Supply Chain Inventory Optimization
+cells.append(new_markdown_cell("""# End-to-End Retail Store Sales Forecasting & Supply Chain Inventory Optimization
 ### Predictive Analytics CA3 — Knowledge Discovery in Databases (KDD) Pipeline
 **Submitted By:** Dev Dilip Dhapodkar  |  **PRN:** `24070521505`
 

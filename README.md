@@ -1,5 +1,4 @@
-# Sales Forecasting
-### End-to-End Retail Store Sales Forecasting & Supply Chain Inventory Optimization (KDD Process)
+# End-to-End Retail Store Sales Forecasting & Supply Chain Inventory Optimization
 
 ![Python](https://img.shields.io/badge/Python-3.12-0071CE?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.5+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -7,7 +6,6 @@
 ![LightGBM](https://img.shields.io/badge/LightGBM-Best_WMAE_%241%2C758.94-0D9488?style=for-the-badge)
 ![KDD Process](https://img.shields.io/badge/Methodology-KDD_Pipeline-FFC220?style=for-the-badge)
 
-> **Project Title / Topic:** Sales Forecasting  
 > **Predictive Analytics Continuous Assessment 3 (CA3) — End-to-End Predictive Model Development Project**  
 > **Submitted By:** Dev Dilip Dhapodkar | **PRN:** `24070521505`  
 > **Dataset:** [Kaggle — Walmart Recruiting: Store Sales Forecasting](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data)
