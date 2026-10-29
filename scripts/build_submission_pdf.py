@@ -513,7 +513,10 @@ def add_footer(canvas, doc):
     canvas.drawRightString(A4[0] - 0.75 * inch, 0.45 * inch, f"Page {doc.page}")
     canvas.restoreState()
 
-pdf_doc.build(story, onFirstPage=add_footer, onLaterPages=add_footer)
+def empty_first_page(canvas, doc):
+    pass
+
+pdf_doc.build(story, onFirstPage=empty_first_page, onLaterPages=add_footer)
 print(f"Successfully generated {pdf_filename}!")
 
 import shutil
